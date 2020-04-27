@@ -3,6 +3,7 @@ import java.util.Set;
 
 public class LC1079{
     public static void main(String[] args) {
+        
         Set<String> ans = new HashSet<>();
         permute("", "AAB", ans);
         for(String s : ans){
